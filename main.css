@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header ul{
+    list-style-type: none;
+}
+.header ul li{
+	display: inline;
+	padding: 0px 21px;
+	font-family: "Sofia", sans-serif;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 135px;
+}
+.header .benphai p{
+	display: inline;
+	margin-right: 47px;
+	font-family: "Sofia", sans-serif;
+
+}
+.nutmaucam{
+	border-radius: 6px;
+	padding: 10px 20px;
+	background-color: #FE5000; color: white;
+	border: none;
+	font-family: "Sofia", sans-serif;
+
+}
+.banner {
+	height: 525px; 
+	background-color: #1F0A00; color: white;
+	padding: 85px 135px;
+	display: flex;
+	align-items: center;
+}
+.banner img {
+	height: 120%;
+}
+.banner .bentrai h1{
+	font-size: 70px;
+	font-family: "Sofia", sans-serif;
+
+}
+.banner .bentrai p{
+	width: 70%;
+	padding: 22px 0px 38px 0px;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: "Sofia", sans-serif;
+
+}
+.sec2 {
+	display: flex;
+	height: 250px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin:0px 298px;
+	font-family: "Sofia", sans-serif;
+
+}
+.oso h3{
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 7px;
+	font-family: "Sofia", sans-serif;
+
+}
+.sec3{
+	text-align: center;
+	font-family: "Sofia", sans-serif;
+
+}
+.sec3 p{
+	padding: 18px 0px 70px 0px;
+	Weight:400;
+    font-size:16px;
+    Line-height:28px;
+	font-family: "Sofia", sans-serif;
+
+}
+.motdong{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 170px;
+	font-family: "Sofia", sans-serif;
+
+}
+.card p {
+	padding: 16px 0px 38px 0px;
+	Weight:400;
+    font-size:16px;
+    Line-height:28px;
+	font-family: "Sofia", sans-serif;
+
+}
+.card h3{
+	padding-top: 36px;
+	font-family: "Sofia", sans-serif;
+
+}
+.card{
+	background-color: #F6F6F6;
+	padding-top: 38px;
+	width: 30%;
+}
+.card:hover{
+	background-color:#FE5000;
+	color: white;
+}
+.sec3 h1:hover{
+	font-size: 80px;
+	color:red;
+	tradition:font-size 2s;
+}
+.sec4{
+	background-color:#FFFAF8;
+	height:1430px;
+	text-align: center;
+	padding: 100px 135px;
+	font-family: "Sofia", sans-serif;
+
+}
+.sec4 p{
+	width: 29%;
+	margin:0 auto;
+	font-family: "Sofia", sans-serif;
+
+}
+.dong{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	font-family: "Sofia", sans-serif;
+
+}
+.cardlon{
+	background-color:antiquewhite;
+	border-radius: 14px;
+	text-align: left;
+	padding: 22px;
+	margin:15px;
+	font-family: "Sofia", sans-serif;
+	width:25%;
+}
+.cardlon img{
+	width:100%;
+}
+
+.dongcta{
+	display: flex;
+	justify-content: space-between;
+	font-family: "Sofia", sans-serif;
+}
+.dongcta input{
+	border-radius: 4px;
+	background-color: transparent;
+	padding:5px 10px;
+	border: 1px solid #C0C0C0;
+	margin-right: 20px;
+	font-family: "Sofia", sans-serif;
+}
+.footer{
+	background-color:#1F0A00;
+	color:white;
+	height: 300px;
+	padding: 100px 135px;
+}
+.duongvien{
+	background-color:transparent;
+	border:1px solid white;
+}
+.dongmot{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ctabtn{
+	padding:50px;
+}
+.donghaiphai{
+	display:flex;
+	justify-content: space-between;
+}
+.donghaiphai ul{
+	list-style-type: none;
+}
+.donghaiphai li{
+	padding:5px 0;
+}
+.donghaiphai ul li{
+	color: orange;
+	padding-right: 15px;
+}
+.donghaitrai{
+	width: 30%;
+}
+.donghaiphai{
+	width: 60%;
+}
+.donghai{
+	display:flex;
+	justify-content: space-between;
+	padding-top:20px;
+}
